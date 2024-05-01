@@ -1,7 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
-/* @media (max-width: 600px) {
-    .container{
-        font-size: 10px;
-    }
-    
-} */
+.head{
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}

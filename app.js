@@ -117,13 +117,12 @@ const products = [
 const div = document.querySelector(".container");
 
 for(let i = 0; i < products.length; i++){
-    // Join the array of words to form the description
     const productDescription = `<p class="card-text">${products[i].description}</p>`;
 
     div.innerHTML += `
          <div class="row">
          <div class="col-md-3 p-2">
-         <div class="card" style="width: 15rem; height : 250px;">
+         <div class="card" style="width: 18rem; height : 220px;">
             <div class="card-body">
                 <h3 class="card-title">NAME: ${products[i].name}</h3>
                 <h4 class="card-subtitle mb-2 text-body-secondary">$${products[i].price.toFixed(2)}</h4>
