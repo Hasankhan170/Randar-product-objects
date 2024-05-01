@@ -105,27 +105,19 @@ const products = [
 ];
 
 
-
-
-
-
-
-
-
-
-
 const div = document.querySelector(".container");
 
 for(let i = 0; i < products.length; i++){
-    const productDescription = `<p class="card-text">${products[i].description}</p>`;
+    const productDescription = `<p class="card-text animate__animated animate__bounceInDown">${products[i].description}</p>`;
+    
 
     div.innerHTML += `
          <div class="row">
-         <div class="col-md-3 p-2">
-         <div class="card" style="width: 18rem; height : 220px;">
+         <div class="col-md-3 p-3">
+         <div class="card" style="width: 15rem; height : 210px; background-color:red; border-radius:10px;">
             <div class="card-body">
-                <h3 class="card-title">NAME: ${products[i].name}</h3>
-                <h4 class="card-subtitle mb-2 text-body-secondary">$${products[i].price.toFixed(2)}</h4>
+                <h3 class="card-title animate__animated animate__wobble unknow">NAME: ${products[i].name}</h3>
+                <h4 class="card-subtitle mb-2 text-body-secondary animate__animated animate__backInLeft">$${products[i].price.toFixed(2)}</h4>
                 ${productDescription}
             </div>
         </div>
@@ -133,6 +125,67 @@ for(let i = 0; i < products.length; i++){
     </div>
     `;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const div = document.querySelector(".container");
 

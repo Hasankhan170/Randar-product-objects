@@ -8,4 +8,11 @@
     text-align: center;
     margin-top: 10px;
     text-transform: uppercase;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.unknow{
+    
+    transition-delay: 650ms;
 }
