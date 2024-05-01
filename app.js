@@ -119,7 +119,9 @@ for(let i = 0; i < products.length; i++){
                 <h3 class="card-title animate__animated animate__wobble unknow">NAME: ${products[i].name}</h3>
                 <h4 class="card-subtitle mb-2 text-body-secondary animate__animated animate__backInLeft">$${products[i].price.toFixed(2)}</h4>
                 ${productDescription}
+                
             </div>
+            
         </div>
       </div>
     </div>
@@ -186,72 +188,4 @@ for(let i = 0; i < products.length; i++){
 
 
 
-
-// const div = document.querySelector(".container");
-
-// for(let i = 0; i < products.length; i++){
-//     // Convert description string to array of words
-//     const descriptionWords = products[i].description.split(" ");
-
-//     // Join the array of words to form the description
-//     const productDescription = descriptionWords.map(word => `<h5 class="card-text">${word}</h5>`).join("");
-
-//     div.innerHTML += `
-       
-//                 <div class="card" style="width: 18rem;">
-//                     <div class="card-body">
-//                         <h3 class="card-title">NAME: ${products[i].name}</h3>
-//                         <h4 class="card-subtitle mb-2 text-body-secondary">$${products[i].price.toFixed(2)}</h4>
-//                         ${productDescription}
-//                     </div>
-//                 </div>
-         
-//     `;
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const div = document.querySelector(".container");
-
-// for(let i = 0; i <  products.length; i++){
-//     let productDescription = ""
-
-//     for(let j = 0; j < products[i].description.length; j++){
-//         productDescription += `
-//             <h5 class="card-text">${products[i].description[j]}</h5>
-//         `
-//     }
-//     div.innerHTML +=`
-//     <div class="row">
-//             <div class="col-md-3 ">
-//        <div class="card " style="width: 18rem;">
-//            <div class="card-body">
-//                <h3 class="card-title">NAME : ${products[i].name}</h3>
-//                <h4 class="card-subtitle mb-2 text-body-secondary">${products[i].price}</h4>
-//                <h5 class="card-text">${productDescription}</h5>
-//           </div>
-//          </div>
-//         </div>
-//        </div>
-//     `
-// }
 
